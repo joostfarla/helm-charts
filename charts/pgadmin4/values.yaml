@@ -61,7 +61,7 @@ serverDefinitions:
   ##
   enabled: false
 
-  servers:
+  servers: {}
   #  firstServer:
   #    Name: "Minimally Defined Server"
   #    Group: "Servers"
@@ -69,7 +69,7 @@ serverDefinitions:
   #    Username: "postgres"
   #    Host: "localhost"
   #    SSLMode: "prefer"
-  #    MainteanceDB: "postgres"
+  #    MaintenanceDB: "postgres"
 
 networkPolicy:
   enabled: true
